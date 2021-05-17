@@ -32,16 +32,16 @@
             app:layout_constraintStart_toEndOf="@+id/nib_back"
             app:layout_constraintTop_toTopOf="@+id/nib_back" />
 
-        <soup.neumorphism.NeumorphButton
+        <soup.neumorphism.NeumorphImageButton
             android:id="@+id/btn_save"
-            style="@style/Widget.Neumorph.Button"
-            android:layout_width="99dp"
-            android:layout_height="65dp"
-            android:text="@string/save"
-            android:textAllCaps="false"
-            app:layout_constraintBottom_toBottomOf="@+id/nib_back"
+            style="@style/Widget.Neumorph.ImageButton"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_save"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/nib_back" />
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
